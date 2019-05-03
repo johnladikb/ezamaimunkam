@@ -75,6 +75,48 @@ nav ul a {
     color: navy;
 }
 
+
+input {
+	line-height: normal;
+}
+	
+input[type="submit"], button{
+   
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+  color: #fff;
+  background-color: #6496c8;
+  /*border: none;*/
+  /*border-radius: 2px;*/
+  /*box-shadow: 0 3px #27496d;*/
+
+}
+/*input[type="submit"]:focus,
+input[type="submit"].focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}*/
+
+input[type="submit"]:hover,
+input[type="submit"].hover,
+button:hover,
+button.hover {
+	color: #fff;
+  	background-color: #417cb8;
+  	
+}
+
+input[type="submit"]:active,
+input[type="submit"].active,
+button:active,
+button.active {
+	color: #fff;
+ 	background-color: #417cb8;
+  	box-shadow: 0 2px #27496d;
+  	/*transform: translateY(5px);*/
+}
 div#content {
     display: table-cell;
     /*width: 100%;*/
