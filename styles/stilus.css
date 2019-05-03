@@ -1,0 +1,157 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-image: url("../images/pattern1.jpg");
+	font-family: 'Titillium Web', sans-serif;
+}
+header {
+    /*border-radius: 10px;*/
+    background-color: rgba(255,255,255,0.7);
+    padding: 0px 10px 0px 5px;
+    margin: 0px;
+	width: 100%;
+	position:fixed;
+	top:0px;
+	
+}
+header span{
+	display: inline-block;
+	
+}
+header h1{
+	margin:0px;
+	padding: 0px 10px;
+	font-weight:normal;
+	font-size: 2em;
+}
+header h2{
+	margin:0px;
+	padding: 0px 10px;
+	font-weight:normal;
+	font-size: 1em;
+	
+}
+header img {
+    float: left;
+    margin: 20px 10px 0px 10px;
+}
+
+div#wrapper {
+    margin: 6em 0px 10px 0px;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
+nav {
+    margin: 0px 0px 0px 0px;
+	display:inline;
+	float:right;
+    /*top: 0px;
+    border-radius: 10px;
+    background-color: #FF6600;*/
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 0px;
+	display:inline;
+}
+
+nav ul li {
+    padding: 0px 15px;
+	display: inline;
+}
+
+nav ul li.active {
+    border-bottom: 5px solid navy;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: navy;
+}
+
+div#content {
+    display: table-cell;
+    /*width: 100%;*/
+    /*border-radius: 10px;*/
+    /*background-color: #99FFCC;*/
+    /*padding: 15px;*/
+}
+
+div#content img{
+	width:100%;
+    /*float: right;
+    width: 20em;
+    height: auto;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 3px solid blue;*/
+}
+
+div#content section{
+	background: url("../images/bg2.png");
+	/*width:100%;*/
+    border: 1px solid #ddd;
+    padding: 10px;
+	margin: 1em 1em 1.5em 1em;
+	/*font-size: 14px;
+    line-height: 1.42857143;*/
+    color: #333;
+	overflow:hidden;
+}
+div#content section p{
+	/*display: table-cell;*/
+	
+}
+div#content section img{
+	
+	margin: 1em 1em;
+}
+div#content section img.nagy{
+	max-width:50%;
+}
+div#content section img.kicsi{
+	max-width:30%;
+}
+footer {
+	background: url("../images/bg2.jpg");
+    color: #eee;
+	padding: 2em 1em;
+    /*border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #CC99FF;*/
+}
+div .top-footer {
+    background: #17469e;
+    color: #eee;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0 22px 0;
+    width: 100%;
+}
+div.kapcsolat {
+	width: 500px;
+	}
+div.kapcsolat label {
+	line-height: 30px;
+
+	}
+div.kapcsolat label input, label textarea {
+	/*position: relative;
+	left: 200px;*/
+	float: right;
+	padding: 2px;
+	}
+div.kapcsolat textarea {
+	width: 350px;
+	}
+div.kapcsolat input[type="submit"] {
+	float: right;
+	clear: both;
+	}
